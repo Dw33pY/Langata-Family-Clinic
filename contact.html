@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Langata Family Clinic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/254728835335" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav-overlay"></div>
+    
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <div class="logo-icon">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+                <div class="logo-text">
+                    <a href="index.html" class="logo">
+                        <h1>Langata Family Clinic</h1>
+                        <p class="tagline">Trusted Healthcare in Nairobi</p>
+                    </a>
+                </div>
+            </div>
+            
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <!-- Desktop Navigation -->
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    <li><a href="#appointment" class="btn btn-primary btn-nav">Book Appointment</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Desktop Navigation List (for larger screens) -->
+            <ul class="nav-list desktop">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="#appointment" class="btn btn-primary btn-nav">Book Appointment</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="mobile-menu-container">
+    <button class="mobile-menu-close">
+        <i class="fas fa-times"></i>
+    </button>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav-list">
+            <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+            <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+            <li><a href="services.html" class="mobile-nav-link">Services</a></li>
+            <li><a href="contact.html" class="mobile-nav-link active">Contact</a></li>
+            <li><a href="#appointment" class="btn btn-primary btn-block">Book Appointment</a></li>
+        </ul>
+    </nav>
+</div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with Langata Family Clinic for all your healthcare needs</p>
+        </div>
+    </section>
+
+    <!-- Contact Page Content -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>We're here to help with all your healthcare needs. Contact us through any of the following methods or visit our clinic during operating hours.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Our Location</h4>
+                                <p>Mugumo-ini Ward, Langata Constituency<br>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone Numbers</h4>
+                                <p>Main: +254 728 835 335<br>Emergency: +254 728 835 335</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Address</h4>
+                                <p>info@langataclinic.co.ke<br>appointments@langataclinic.co.ke</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Operating Hours</h4>
+                                <p>Monday - Friday: 8:00 AM - 8:00 PM<br>Saturday: 9:00 AM - 4:00 PM<br>Sunday: Emergency Services Only</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="map-container">
+                        <div class="map-placeholder">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span>Clinic Location Map</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form Section -->
+                <div class="contact-form-section" id="appointment">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+    
+                    <form class="contact-form">
+                        <div class="form-row">
+                        <div class="form-group">
+                        <input type="text" placeholder="Your Full Name" required>
+                </div>
+            
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+            </div>
+        
+            <div class="form-group">
+                <input type="email" placeholder="Email Address" required>
+            </div>
+        
+            <div class="form-group">
+                <select required>
+                    <option value="" disabled selected>Reason for Contact</option>
+                    <option value="appointment">Book Appointment</option>
+                    <option value="inquiry">General Inquiry</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="emergency">Emergency</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        
+            <div class="form-group">
+                <textarea placeholder="Your Message" required rows="4"></textarea>
+            </div>
+        
+                    <button type="submit" class="btn btn-primary btn-block btn-large">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Section -->
+    <section class="appointment">
+        <div class="container">
+            <div class="appointment-content">
+                <h2>Emergency Services</h2>
+                <p>For medical emergencies, please call us immediately or proceed to the nearest emergency facility.</p>
+                
+                <div class="emergency-contact">
+                    <div class="emergency-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>24/7 Emergency Line</h3>
+                        <p>+254 728 835 335</p>
+                    </div>
+                    
+                    <div class="emergency-item">
+                        <i class="fas fa-ambulance"></i>
+                        <h3>Ambulance Services</h3>
+                        <p>Available through coordination</p>
+                    </div>
+                    
+                    <div class="emergency-item">
+                        <i class="fas fa-hospital"></i>
+                        <h3>Emergency Referrals</h3>
+                        <p>To major hospitals when needed</p>
+                    </div>
+                </div>
+                
+                <div class="text-center" style="margin-top: 3rem;">
+                    <a href="tel:+254728835335" class="btn btn-secondary btn-large">
+                        <i class="fas fa-phone"></i> Call Emergency Line Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Langata Family Clinic</h3>
+                    <p>Level 2 Medical Clinic serving Mugumo-ini ward in Langata constituency, Nairobi. Providing accessible, reliable healthcare with a focus on family wellness.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#appointment">Book Appointment</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li>General Medical Consultations</li>
+                        <li>Preventive Healthcare</li>
+                        <li>Diagnostic Services</li>
+                        <li>Chronic Condition Management</li>
+                        <li>Vaccinations</li>
+                        <li>Referral Services</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li style="color: black;"><i class="fas fa-map-marker-alt"></i> Mugumo-ini, Langata, Nairobi</li>
+                        <li style="color: black;"><i class="fas fa-phone"></i> +254 728 835 335</li>
+                        <li style="color: black;"><i class="fas fa-envelope"></i> info@langataclinic.co.ke</li>
+                        <li style="color: black;"><i class="fas fa-clock"></i> Mon-Fri: 8AM-8PM, Sat: 9AM-4PM</li>
+                        <li style="color: black;"><i class="fas fa-globe"></i> Emergency: 24/7 on-call</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Langata Family Clinic. All rights reserved.</p>
+                <p>Powered by modern healthcare practices and dedicated service.</p>
+            </div>
+            <div class="developer-credit">
+                <p>Website designed and developed by <a href="https://github.com/Dw33pY" target="_blank" rel="noopener">Dw33pY</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    
+    <!--<style>
+        .emergency-contact {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .emergency-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .emergency-item i {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+        
+        .emergency-item h3 {
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+        
+        .emergency-item p {
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 0;
+            font-size: 1.1rem;
+        }
+        
+        .contact-form-section {
+            background-color: var(--light);
+            padding: 2.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+    </style>-->
+</body>
+                                  </html>
